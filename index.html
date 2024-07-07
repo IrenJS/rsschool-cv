@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cv</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <section class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#expiriens" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="main-container">
+    <section class="main-section">
+        <img src="./assets/img/jbs_8082.jpg" alt="" class="avatar">
+    </section>
+    <section class="main-section-text">
+        <h1>Irina Churaeva</h1>
+        <h3>Junior Frontend developer</h3>
+    </section>
+    </section>
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>Phone: +79514889060</li>
+            <li>E-mail: churaeva09@gmail.com</li>
+        </ul>
+    </section>
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am a beginner Frontend developer. 
+            I do not have a degree in information 
+            technology, but I am an expert in 
+            linguistics. This knowledge will help 
+            me figure out and learn the skills 
+            that are needed for a developer faster.</p>
+        <p>I easily find a common language with
+             people and I like working in a team. 
+             I have qualities such as sociability, 
+             responsiveness, and responsibility.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+        </ul>
+    </section>
+    <section id="code">
+        <h2>Code</h2>
+        <pre><code>
+            const cities = ["Москва", "Санкт-Петербург", "Саратов", "Магадан", "Ярославль", "Самара", "Якутск"]; 
+            
+            let m = prompt();
+            
+            if (cities.includes(m)) {
+            
+            let filteredCities = cities.filter(function(city) {
+            
+            return city[0] === m[0];
+            
+            });
+            
+            console.log(Города, начинающиеся с буквы "${m[0]}": ${filteredCities.join(", ")});
+            
+            } else {
+            
+            console.log("Такого города нет в списке");
+            
+            }
+        </code></pre>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>I have no experience.</p>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <p>I have a degree in linguistics.
+             I also took a JavaScript course: 
+             Immersion in JavaScript: for beginners.
+              I also take a course at RS School.</p>
+    </section>
+    <section id="language">
+        <h2>Languages</h2>
+        <ul>
+            <li>English - Upper-intermediate</li>
+            <li>German - B1</li>
+            <li>Russian - native</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <section class="container footer-container">
+            <div class="footer-logo">
+                <a href="https://rs.school/courses/javascript-ru">
+                  <img src="./assets/svg/rs-school-logo.svg" alt="Логотип" class="logo-img">
+                </a>
+            </div>
+            <div>
+                <span>&copy;2024</span>
+                <a href="https://github.com/IrenJS" class="footer-links">IrenJS</a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
