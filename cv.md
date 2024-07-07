@@ -2,11 +2,11 @@
 
 **Contacts:**
 
-* Phone: 89514889060
+* Phone: +79514889060
 * E-mail: churaeva09@gmail.com
  ***
 
-**Briefly about myself:**
+**Summary:**
 
  I am a beginner Frontend developer. I do not have a degree in information technology, but I am an expert in linguistics. This knowledge will help me figure out and learn the skills that are needed for a developer faster.
 
@@ -41,7 +41,7 @@ console.log("Такого города нет в списке");
 }
 ```
 ***
-**Expirience:**
+**Experience:**
 
 I have no experience.
 ***
